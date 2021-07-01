@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    background-color: mediumaquamarine;
+}
+
+header, footer {
+    background-color: tan;
+    color: lime;
+    text-align: center;
+}
+
+li {
+    border: solid maroon 1px;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+    background-color: darkorange;
+    color: brown;
+}
+section {
+    background-color: teal;
+    color: lime;
+    text-align: center;
+}
