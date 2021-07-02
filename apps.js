@@ -21,12 +21,12 @@ function getUserName() {
 }
 
 function doYouLikeSW() {
-  let likeSW = prompt("Do you like Star Wars?");
-  if (likeSW == "yes") {
-    document.write("I like Star Wars as well!");
-  } else {
-    document.write("i am sorry to hear that.  Go back to Trekkie Land!");
-  }
+    let likeSW = prompt('Do you like Star Wars?')
+    if(likeSW == 'yes'){
+        document.write('MORE POWER!!!')
+    } else {
+        document.write("Sucks dude")
+    }
 }
 
 // Create a user guessing game
@@ -38,8 +38,8 @@ function doYouLikeSW() {
 
 function guessingGame() {
   // What ist he correct Answer?
-  let correctAnswer = 37;
-  let numberOfGuesses = 8;
+  let correctAnswer = 42;
+  let numberOfGuesses = 3;
   // 1 - 100
   for (let i = 0; i < numberOfGuesses; i++) {
     console.log(i);
@@ -50,7 +50,7 @@ function guessingGame() {
     }
     document.write("<h4>" + userAnswer + "<h4>");
     if (userAnswer == correctAnswer) {
-      alert("DING DING DING!  You got it right!");
+      alert("The meaning of life");
       break;
     } else if (userAnswer < correctAnswer) {
       alert("Sorry, you are too low!");
